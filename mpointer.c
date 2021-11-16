@@ -13,7 +13,9 @@ int main() {
 	p = &i;
 	dp = &p;
 	tp = &dp;
-	
+
+	printf("Hello!");
+
 	func1(&i);
 	printf("i = %d\n", i);
 	
@@ -50,4 +52,3 @@ void func4(int**** p)
 {
 	****p = ****p+100;
 }
-
