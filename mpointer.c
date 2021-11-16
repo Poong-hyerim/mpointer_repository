@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 
 void func1(int* p);
 void func2(int** p);
@@ -14,9 +14,9 @@ int main() {
 	dp = &p;
 	tp = &dp;
 
-	printf("Hello!");
+	printf("HELLO! :>");
 
-	func1(&i);
+	unc1(&i);
 	printf("i = %d\n", i);
 	
 	func2(&p);
